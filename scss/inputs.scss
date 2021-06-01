@@ -1,0 +1,19 @@
+input + .slider.round:before{
+    font-size: 25px;
+    background: transparent;
+    content: "☀️";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input:checked + .slider.round:before{
+    font-size: 25px;
+    background: transparent;
+    content: "🌒";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
